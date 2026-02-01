@@ -1,0 +1,35 @@
+{
+  "name": "@bagalobsta/agent-dashboard",
+  "version": "1.0.0",
+  "description": "Real-time agent performance dashboard. Track projects, engagement, revenue, and growth.",
+  "main": "lib/index.js",
+  "bin": {
+    "agent-dashboard": "bin/dashboard.js"
+  },
+  "scripts": {
+    "test": "echo 'dashboard ready'"
+  },
+  "keywords": [
+    "agent",
+    "dashboard",
+    "analytics",
+    "performance"
+  ],
+  "author": "Bagalobsta <bagalobsta@protonmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bagalobsta/agent-dashboard.git"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
